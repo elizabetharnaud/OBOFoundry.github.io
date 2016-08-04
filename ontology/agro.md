@@ -16,8 +16,11 @@ mailing_list: https://groups.google.com/group/agronomyOntology
 products:
   - id: agro.owl
 dependencies:
+ - id: Agrovoc
+ - id: co
  - id: envo
  - id: uo
+ - id: po
  - id: ro
  - id: pato
  - id: chebi
@@ -35,5 +38,5 @@ tracker: https://github.com/AgriculturalSemantics/agro/issues/
 
 ---
 
-AGRO, the AGRonomy Ontology, describes agronomic practices, agronomic techniques, and agronomic variables used in agronomic experiments. AGRO is being built using traits identified by agronomists, the ICASA variables, and other existing ontologies such as ENVO, UO, and PATO, IAO, and CHEBI. Further, AGRO will power an Agronomy Management System and fieldbook modeled on a CGIAR Breeding Management System to capture agronomic data. 
+AGRO, the CGIAR AGRonomy Ontology, describes agronomic practices, agronomic techniques, and agronomic variables used in agronomic experiments. AGRO is being built using parameters identified by agronomists, the ICASA variables, and other existing ontologies such as Crop Ontology, ENVO, UO, and PATO, PO, IAO, and CHEBI. Further, AGRO will power an Agronomy Management System and fieldbook modeled on a CGIAR Breeding Management System to capture agronomic data. 
 
